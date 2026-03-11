@@ -22,8 +22,10 @@ Resources:
   # 1. S3 Bucket
   DataBucket:
     Type: AWS::S3::Bucket
+    DependsOn: SNSTopicPolicy # Forces permissions to exist BEFORE the bucket
     Properties:
-      BucketName: !Sub "${AWS::StackName}-sensor-data"
+      # Using a hardcoded-style name prevents the "Circular Dependency" loop
+      BucketName: !Sub "${AWS::StackName}-sensor-data-${AWS::AccountId}"
       NotificationConfiguration:
         TopicConfigurations:
           - Event: 's3:ObjectCreated:*'
@@ -48,6 +50,7 @@ Resources:
     Properties:
       Topics: [!Ref SNSTopic]
       PolicyDocument:
+        Version: "2012-10-17"
         Statement:
           - Effect: Allow
             Principal:
@@ -56,7 +59,8 @@ Resources:
             Resource: !Ref SNSTopic
             Condition:
               ArnLike:
-                aws:SourceArn: !Sub "arn:aws:s3:::${AWS::StackName}-data-bucket-unique-id"
+                # We manually construct the ARN so the policy doesn't have to wait for the bucket
+                aws:SourceArn: !Sub "arn:aws:s3:::${AWS::StackName}-sensor-data-${AWS::AccountId}"
 
 
   # SNS Subscription to the EC2 API
