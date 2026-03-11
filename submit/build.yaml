@@ -22,19 +22,6 @@ Resources:
   # 1. S3 Bucket
   DataBucket:
     Type: AWS::S3::Bucket
-    Properties:
-      # S3 Notifications require the Topic to exist first; we add that configuration later
-      NotificationConfiguration:
-        TopicConfigurations:
-          - Event: 's3:ObjectCreated:*'
-            Filter:
-              S3Key:
-                Rules:
-                  - Name: prefix
-                    Value: raw/
-                  - Name: suffix
-                    Value: .csv
-            Topic: !Ref SNSTopic
 
   # 2. SNS Topic
   SNSTopic:
@@ -50,9 +37,32 @@ Resources:
       PolicyDocument:
         Statement:
           - Effect: Allow
-            Principal: { Service: "s3.amazonaws.com" }
+            Principal:
+              Service: "s3.amazonaws.com"
             Action: "sns:Publish"
             Resource: !Ref SNSTopic
+            Condition:
+              ArnLike:
+                aws:SourceArn: !Sub "arn:aws:s3:::${DataBucket}"
+
+  # S3 Notification Resource (Defined separately to break circular dependency)
+  BucketNotification:
+    Type: AWS::S3::BucketNotification
+    Properties:
+      Bucket: !Ref DataBucket
+      NotificationConfiguration:
+        TopicConfigurations:
+          - Event: 's3:ObjectCreated:*'
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: raw/
+                  - Name: suffix
+                    Value: .csv
+            Topic: !Ref SNSTopic
+    DependsOn: SNSTopicPolicy # Ensures policy is in place before S3 tries to test the connection
+
 
   # SNS Subscription to the EC2 API
   ApiSubscription:
@@ -78,7 +88,11 @@ Resources:
             Version: "2012-10-17"
             Statement:
               - Effect: Allow
-                Action: "s3:*"
+                Action: 
+                  Action: 
+                    - "s3:GetObject"
+                    - "s3:PutObject"
+                    - "s3:ListBucket"
                 Resource: 
                   - !Sub "arn:aws:s3:::${DataBucket}"
                   - !Sub "arn:aws:s3:::${DataBucket}/*"
