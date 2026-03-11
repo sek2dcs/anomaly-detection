@@ -79,7 +79,8 @@ Resources:
         Version: "2012-10-17"
         Statement:
           - Effect: Allow
-            Principal: { Service: [ec2.amazonaws.com] }
+            Principal:
+              Service: [ec2.amazonaws.com]
             Action: ["sts:AssumeRole"]
       Policies:
         - PolicyName: S3AccessPolicy
@@ -87,11 +88,10 @@ Resources:
             Version: "2012-10-17"
             Statement:
               - Effect: Allow
-                Action: 
-                  Action: 
-                    - "s3:GetObject"
-                    - "s3:PutObject"
-                    - "s3:ListBucket"
+                Action:
+                  - "s3:GetObject"
+                  - "s3:PutObject"
+                  - "s3:ListBucket"
                 Resource: 
                   - !Sub "arn:aws:s3:::${DataBucket}"
                   - !Sub "arn:aws:s3:::${DataBucket}/*"
