@@ -56,7 +56,7 @@ Resources:
             Resource: !Ref SNSTopic
             Condition:
               ArnLike:
-                aws:SourceArn: !Sub "arn:aws:s3:::${DataBucket}"
+                aws:SourceArn: !Sub "arn:aws:s3:::${AWS::StackName}-data-bucket-unique-id"
 
 
   # SNS Subscription to the EC2 API
