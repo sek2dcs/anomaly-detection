@@ -90,7 +90,6 @@ Resources:
 
   # 4. Security Group
   EC2SecurityGroup:
-    Description: allow port 22 from my ip, allow port 8000 from anywhere
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: Allow SSH and FastAPI (8000)
