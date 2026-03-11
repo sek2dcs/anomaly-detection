@@ -151,11 +151,6 @@ Resources:
           source venv/bin/activate
           pip install -r requirements.txt
 
-         # --- AUTOMATIC START DISABLED PER INSTRUCTIONS ---
-          # The app will NOT start on its own. 
-          # You must SSH in and run the command manually.
-          echo "Bootstrap complete. Waiting for manual start..."
-
   # 6. Elastic IP
   InstanceEIP:
     Type: AWS::EC2::EIP
