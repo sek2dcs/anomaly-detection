@@ -8,6 +8,11 @@ from datetime import datetime
 from baseline import BaselineManager
 from detector import AnomalyDetector
 
+# adding logging 
+import logging
+logger = logging.getLogger("AnomalyDetectionApp")
+
+
 s3 = boto3.client("s3")
 
 
@@ -32,7 +37,9 @@ def process_file(bucket: str, key: str):
         if col in df.columns:
             clean_values = df[col].dropna().tolist()
             if clean_values:
+                logger.info(f"New calculations for channel: {col}") # logging
                 baseline = baseline_mgr.update(baseline, col, clean_values)
+                logger.info("Baseline updates completed and saved to S3.") # logging
 
     # 4. Run detection
     detector = AnomalyDetector(z_threshold=3.0, contamination=0.05)

@@ -1,1 +1,159 @@
 # cloudformation solution goes here
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: CloudFormation template for DS5220 Project 1
+
+Parameters: 
+  InstanceType: 
+    Description: EC2 instance that is ubuntu, t3.micro, 16gb boot vol, necessary python libs installed, pulls copy of forked repo, set bucket_name var, runs fastAPI
+    Type: String
+    Default: t3.micro
+  KeyName:
+    Type: 'AWS::EC2::KeyPair::KeyName'
+  SSHLocation:
+    Type: String
+    Default: 216.30.181.29/32 # my specific IPv4 address (/32 so that only this IP address is allowed)
+
+
+
+
+
+Resources:
+  # 1. S3 Bucket
+  DataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      # S3 Notifications require the Topic to exist first; we add that configuration later
+      NotificationConfiguration:
+        TopicConfigurations:
+          - Event: 's3:ObjectCreated:*'
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: raw/
+                  - Name: suffix
+                    Value: .csv
+            Topic: !Ref SNSTopic
+
+  # 2. SNS Topic
+  SNSTopic:
+    Type: AWS::Topic
+    Properties:
+      TopicName: ds5220-dp1
+
+  # Permission for S3 to post to SNS
+  SNSTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+    Properties:
+      Topics: [!Ref SNSTopic]
+      PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal: { Service: "s3.amazonaws.com" }
+            Action: "sns:Publish"
+            Resource: !Ref SNSTopic
+
+  # SNS Subscription to the EC2 API
+  ApiSubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: http
+      Endpoint: !Sub "http://${InstanceEIP}:8000/notify"
+      TopicArn: !Ref SNSTopic
+
+  # 3. IAM Role for EC2 (Access to S3)
+  EC2InstanceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: [ec2.amazonaws.com] }
+            Action: ["sts:AssumeRole"]
+      Policies:
+        - PolicyName: S3AccessPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: "s3:*"
+                Resource: 
+                  - !Sub "arn:aws:s3:::${DataBucket}"
+                  - !Sub "arn:aws:s3:::${DataBucket}/*"
+
+  EC2InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles: [!Ref EC2InstanceRole]
+
+  # 4. Security Group
+  EC2SecurityGroup:
+    Description: allow port 22 from my ip, allow port 8000 from anywhere
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow SSH and FastAPI (8000)
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: !Ref SSHLocation
+        - IpProtocol: tcp
+          FromPort: 8000
+          ToPort: 8000
+          CidrIp: 0.0.0.0/0
+
+  # 5. EC2 Instance (Ubuntu 24.04)
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-04b70fa74e45c3917 # Ubuntu 24.04 LTS in us-east-1
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyName
+      IamInstanceProfile: !Ref EC2InstanceProfile
+      SecurityGroupIds: [!Ref EC2SecurityGroup]
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            VolumeSize: 16
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          set -e
+          # 1. Environment variables
+          echo "BUCKET_NAME=${DataBucket}" >> /etc/environment
+          export BUCKET_NAME=${DataBucket}
+
+          # 2. Install dependencies
+          apt-get update -y
+          apt-get install -y python3-pip python3-venv git
+
+          # 3. Clone repo (Replace with YOUR fork URL)
+          git clone https://github.com/sek2dcs/anomaly-detection.git /home/ubuntu/app
+          chown -R ubuntu:ubuntu /home/ubuntu/app
+          cd /home/ubuntu/app
+
+          # 4. Setup Python Environment
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+          # 5. Start FastAPI
+          # Run as 'ubuntu' user so files are owned correctly
+          sudo -u ubuntu BUCKET_NAME=${DataBucket} bash -c "source /home/ubuntu/app/venv/bin/activate && fastapi run app.py --port 8000" &
+
+  # 6. Elastic IP
+  InstanceEIP:
+    Type: AWS::EC2::EIP
+
+  EIPAssociation:
+    Type: AWS::EC2::EIPAssociation
+    Properties:
+      InstanceId: !Ref EC2Instance
+      EIP: !Ref InstanceEIP
+
+Outputs:
+  AppURL:
+    Description: URL of the FastAPI app
+    Value: !Sub "http://${InstanceEIP}:8000"
