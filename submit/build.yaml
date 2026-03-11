@@ -9,7 +9,7 @@ Parameters:
     Type: String
     Default: t3.micro
   KeyName:
-    Type: 'AWS::EC2::KeyPair::ds5220awssshkey'
+    Type: 'AWS::EC2::KeyPair::KeyName'
   SSHLocation:
     Type: String
     Default: 216.30.181.29/32 # my specific IPv4 address (/32 so that only this IP address is allowed)
