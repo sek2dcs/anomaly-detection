@@ -25,7 +25,7 @@ Resources:
 
   # 2. SNS Topic
   SNSTopic:
-    Type: AWS::Topic
+    Type: AWS::SNS::Topic
     Properties:
       TopicName: ds5220-dp1
 
