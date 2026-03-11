@@ -1,0 +1,1182 @@
+2026-03-11 01:30:49,680 - uvicorn.error - INFO - Started server process [2901]
+2026-03-11 01:30:49,681 - uvicorn.error - INFO - Waiting for application startup.
+2026-03-11 01:30:49,681 - uvicorn.error - INFO - Application startup complete.
+2026-03-11 01:30:49,682 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 01:30:55,023 - AnomalyDetectionApp - INFO - SNS Subscription Confirmed via URL.
+2026-03-11 01:35:02,474 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T013501.csv
+2026-03-11 01:35:02,644 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:35:02,645 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:02,645 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:35:02,645 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:02,646 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:35:02,646 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:02,646 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:35:02,646 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:03,018 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:35:03,080 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:35:03,081 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:03,081 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:35:03,081 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:03,082 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:35:03,082 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:03,082 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:35:03,082 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:35:03,364 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:36:02,096 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T013601.csv
+2026-03-11 01:36:02,410 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:36:02,410 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,417 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:36:02,417 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,417 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:36:02,417 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,418 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:36:02,420 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,843 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:36:02,898 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:36:02,898 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,898 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:36:02,899 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,899 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:36:02,899 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:02,899 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:36:02,899 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:36:03,261 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:37:02,576 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T013701.csv
+2026-03-11 01:37:02,819 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:37:02,819 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:02,819 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:37:02,819 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:02,820 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:37:02,820 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:02,820 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:37:02,821 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:03,206 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:37:03,265 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:37:03,265 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:03,265 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:37:03,266 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:03,266 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:37:03,266 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:03,266 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:37:03,266 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:37:03,638 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:45:34,250 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T014532.csv
+2026-03-11 01:45:34,455 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:45:34,455 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,455 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:45:34,455 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,456 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:45:34,456 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,456 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:45:34,456 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,789 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:45:34,843 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:45:34,844 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,844 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:45:34,844 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,844 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:45:34,845 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:34,845 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:45:34,845 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:45:35,137 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:53:23,458 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015322.csv
+2026-03-11 01:53:23,602 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:53:23,603 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:23,603 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:53:23,603 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:23,603 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:53:23,604 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:23,604 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:53:23,604 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:24,002 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:53:24,056 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:53:24,057 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:24,057 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:53:24,057 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:24,058 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:53:24,058 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:24,058 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:53:24,058 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:53:24,359 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:54:23,770 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015422.csv
+2026-03-11 01:54:23,944 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:54:23,944 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:23,944 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:54:23,944 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:23,945 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:54:23,945 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:23,945 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:54:23,945 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:24,269 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:54:24,321 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:54:24,321 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:24,322 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:54:24,322 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:24,322 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:54:24,322 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:24,323 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:54:24,323 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:54:24,596 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:55:23,479 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015522.csv
+2026-03-11 01:55:23,656 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:55:23,656 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:23,656 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:55:23,656 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:23,657 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:55:23,657 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:23,657 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:55:23,657 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:23,991 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:55:24,042 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:55:24,042 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:24,042 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:55:24,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:24,043 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:55:24,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:24,043 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:55:24,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:55:24,400 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:56:23,747 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015622.csv
+2026-03-11 01:56:23,893 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:56:23,894 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:23,894 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:56:23,894 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:23,894 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:56:23,895 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:23,895 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:56:23,895 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:24,223 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:56:24,278 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:56:24,278 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:24,278 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:56:24,279 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:24,279 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:56:24,279 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:24,279 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:56:24,279 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:56:24,593 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:57:24,239 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015723.csv
+2026-03-11 01:57:24,412 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:57:24,412 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,413 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:57:24,413 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,413 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:57:24,413 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,414 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:57:24,414 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,771 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:57:24,824 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:57:24,824 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,825 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:57:24,825 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,825 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:57:24,825 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:24,826 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:57:24,826 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:57:25,108 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:58:24,035 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015823.csv
+2026-03-11 01:58:24,198 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:58:24,198 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,199 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:58:24,199 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,199 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:58:24,199 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,200 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:58:24,200 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,540 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:58:24,593 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:58:24,593 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,594 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:58:24,594 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,594 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:58:24,594 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,595 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:58:24,595 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:58:24,882 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:59:24,448 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T015923.csv
+2026-03-11 01:59:24,610 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:59:24,610 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:24,611 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:59:24,611 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:24,611 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:59:24,611 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:24,612 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:59:24,612 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:24,954 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 01:59:25,005 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 01:59:25,005 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:25,005 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 01:59:25,006 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:25,006 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 01:59:25,006 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:25,006 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 01:59:25,007 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 01:59:25,288 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:00:24,911 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020023.csv
+2026-03-11 02:00:25,074 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:00:25,074 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,075 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:00:25,075 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,075 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:00:25,075 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,076 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:00:25,076 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,428 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:00:25,485 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:00:25,485 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,486 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:00:25,486 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,486 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:00:25,486 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,487 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:00:25,487 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:00:25,769 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:01:24,351 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020123.csv
+2026-03-11 02:01:24,550 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:01:24,551 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,551 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:01:24,551 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,551 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:01:24,551 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,552 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:01:24,552 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,897 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:01:24,952 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:01:24,952 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,953 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:01:24,953 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,953 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:01:24,954 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:24,954 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:01:24,954 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:01:25,231 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:02:24,824 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020223.csv
+2026-03-11 02:02:24,983 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:02:24,983 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:24,984 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:02:24,984 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:24,984 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:02:24,984 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:24,984 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:02:24,985 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:25,347 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:02:25,401 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:02:25,402 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:25,402 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:02:25,402 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:25,402 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:02:25,403 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:25,403 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:02:25,403 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:02:25,716 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:03:25,309 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020324.csv
+2026-03-11 02:03:25,457 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:03:25,458 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,458 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:03:25,458 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,458 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:03:25,458 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,459 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:03:25,459 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,792 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:03:25,846 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:03:25,846 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,847 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:03:25,847 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,847 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:03:25,847 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:25,847 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:03:25,848 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:03:26,137 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:04:25,693 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020424.csv
+2026-03-11 02:04:25,927 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:04:25,927 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:25,928 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:04:25,928 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:25,928 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:04:25,928 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:25,929 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:04:25,929 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:26,294 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:04:26,347 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:04:26,348 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:26,348 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:04:26,348 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:26,348 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:04:26,349 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:26,349 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:04:26,349 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:04:26,692 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:05:25,454 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020524.csv
+2026-03-11 02:05:25,613 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:05:25,614 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,614 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:05:25,614 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,614 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:05:25,614 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,615 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:05:25,615 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,942 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:05:25,998 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:05:25,998 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,998 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:05:25,998 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,999 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:05:25,999 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:25,999 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:05:25,999 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:05:26,291 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:06:25,801 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020624.csv
+2026-03-11 02:06:25,954 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:06:25,954 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:25,954 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:06:25,955 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:25,955 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:06:25,955 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:25,955 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:06:25,955 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:26,302 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:06:26,383 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:06:26,383 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:26,384 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:06:26,384 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:26,384 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:06:26,384 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:26,385 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:06:26,385 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:06:26,726 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:07:26,366 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020724.csv
+2026-03-11 02:07:26,531 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:07:26,532 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,532 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:07:26,532 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,533 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:07:26,533 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,533 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:07:26,533 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,887 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:07:26,976 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:07:26,976 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,977 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:07:26,977 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,977 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:07:26,977 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:26,978 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:07:26,978 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:07:27,326 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:08:25,935 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020825.csv
+2026-03-11 02:08:26,089 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:08:26,089 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,089 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:08:26,090 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,090 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:08:26,090 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,090 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:08:26,090 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,451 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:08:26,507 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:08:26,507 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,507 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:08:26,508 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,508 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:08:26,508 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,508 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:08:26,508 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:08:26,831 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:09:26,298 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T020925.csv
+2026-03-11 02:09:26,463 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:09:26,463 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,464 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:09:26,464 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,464 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:09:26,464 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,465 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:09:26,465 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,807 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:09:26,877 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:09:26,878 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,878 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:09:26,878 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,878 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:09:26,878 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:26,879 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:09:26,879 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:09:27,231 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:10:26,792 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021025.csv
+2026-03-11 02:10:26,995 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:10:26,996 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:26,996 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:10:26,996 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:26,997 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:10:26,997 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:26,997 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:10:26,997 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:27,352 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:10:27,423 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:10:27,423 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:27,424 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:10:27,424 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:27,424 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:10:27,424 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:27,425 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:10:27,425 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:10:27,722 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:11:26,305 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021125.csv
+2026-03-11 02:11:26,454 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:11:26,454 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,455 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:11:26,455 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,455 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:11:26,455 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,456 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:11:26,456 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,791 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:11:26,846 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:11:26,846 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,846 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:11:26,846 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,847 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:11:26,847 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:26,847 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:11:26,847 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:11:27,123 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:12:26,757 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021225.csv
+2026-03-11 02:12:26,934 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:12:26,934 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:26,934 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:12:26,934 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:26,935 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:12:26,935 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:26,935 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:12:26,935 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:27,285 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:12:27,344 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:12:27,344 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:27,344 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:12:27,344 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:27,345 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:12:27,345 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:27,345 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:12:27,345 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:12:27,726 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:13:27,337 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021325.csv
+2026-03-11 02:13:27,500 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:13:27,500 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,501 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:13:27,501 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,501 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:13:27,501 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,502 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:13:27,502 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,856 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:13:27,912 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:13:27,912 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,912 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:13:27,912 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,913 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:13:27,913 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:27,913 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:13:27,913 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:13:28,254 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:14:26,746 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021425.csv
+2026-03-11 02:14:26,898 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:14:26,898 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:26,898 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:14:26,898 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:26,899 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:14:26,899 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:26,899 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:14:26,899 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:27,246 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:14:27,301 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:14:27,301 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:27,301 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:14:27,301 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:27,302 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:14:27,302 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:27,302 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:14:27,302 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:14:27,613 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:15:27,301 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021526.csv
+2026-03-11 02:15:27,443 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:15:27,443 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,443 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:15:27,443 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,444 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:15:27,444 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,444 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:15:27,444 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,782 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:15:27,836 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:15:27,836 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,836 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:15:27,836 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,837 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:15:27,837 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:27,837 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:15:27,837 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:15:28,172 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:16:26,924 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021626.csv
+2026-03-11 02:16:27,090 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:16:27,091 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,091 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:16:27,091 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,091 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:16:27,091 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,092 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:16:27,092 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,439 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:16:27,496 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:16:27,496 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,497 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:16:27,497 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,497 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:16:27,498 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,498 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:16:27,498 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:16:27,860 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:17:27,459 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021726.csv
+2026-03-11 02:17:27,715 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:17:27,716 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:27,716 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:17:27,716 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:27,716 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:17:27,716 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:27,717 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:17:27,717 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:28,103 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:17:28,164 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:17:28,164 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:28,164 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:17:28,164 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:28,165 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:17:28,165 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:28,165 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:17:28,165 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:17:28,513 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:18:27,828 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021826.csv
+2026-03-11 02:18:27,981 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:18:27,982 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:27,982 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:18:27,982 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:27,982 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:18:27,983 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:27,983 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:18:27,983 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:28,344 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:18:28,397 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:18:28,397 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:28,398 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:18:28,398 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:28,398 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:18:28,398 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:28,398 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:18:28,399 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:18:28,719 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:19:27,465 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T021926.csv
+2026-03-11 02:19:27,627 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:19:27,627 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:27,627 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:19:27,627 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:27,628 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:19:27,628 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:27,628 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:19:27,628 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:28,055 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:19:28,114 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:19:28,114 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:28,115 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:19:28,115 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:28,115 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:19:28,115 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:28,116 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:19:28,116 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:19:28,400 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:20:28,049 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022026.csv
+2026-03-11 02:20:28,235 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:20:28,235 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,235 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:20:28,235 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,236 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:20:28,236 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,236 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:20:28,236 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,592 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:20:28,646 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:20:28,647 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,647 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:20:28,647 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,647 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:20:28,647 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,648 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:20:28,648 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:20:28,962 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:21:27,645 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022126.csv
+2026-03-11 02:21:27,848 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:21:27,848 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:27,849 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:21:27,849 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:27,849 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:21:27,849 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:27,850 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:21:27,850 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:28,278 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:21:28,334 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:21:28,334 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:28,335 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:21:28,335 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:28,335 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:21:28,335 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:28,336 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:21:28,336 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:21:28,641 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:22:28,071 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022226.csv
+2026-03-11 02:22:28,225 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:22:28,225 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,226 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:22:28,226 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,226 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:22:28,226 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,226 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:22:28,227 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,564 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:22:28,619 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:22:28,619 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,619 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:22:28,619 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,620 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:22:28,620 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,620 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:22:28,620 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:22:28,917 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:23:27,707 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022327.csv
+2026-03-11 02:23:27,856 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:23:27,856 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:27,856 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:23:27,856 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:27,857 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:23:27,857 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:27,857 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:23:27,857 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:28,194 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:23:28,251 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:23:28,251 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:28,252 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:23:28,252 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:28,252 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:23:28,252 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:28,252 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:23:28,253 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:23:28,557 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:24:28,173 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022427.csv
+2026-03-11 02:24:28,339 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:24:28,340 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,340 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:24:28,340 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,340 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:24:28,341 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,341 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:24:28,341 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,683 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:24:28,743 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:24:28,743 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,743 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:24:28,743 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,744 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:24:28,744 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:28,744 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:24:28,744 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:24:29,041 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:25:28,550 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022527.csv
+2026-03-11 02:25:28,723 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:25:28,723 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:28,723 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:25:28,724 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:28,724 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:25:28,724 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:28,724 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:25:28,724 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:29,066 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:25:29,125 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:25:29,126 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:29,126 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:25:29,126 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:29,126 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:25:29,127 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:29,127 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:25:29,127 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:25:29,409 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:26:28,314 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022627.csv
+2026-03-11 02:26:28,462 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:26:28,463 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,463 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:26:28,463 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,463 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:26:28,463 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,464 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:26:28,464 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,807 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:26:28,865 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:26:28,865 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,865 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:26:28,866 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,866 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:26:28,866 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:28,866 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:26:28,866 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:26:29,148 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:27:28,714 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022727.csv
+2026-03-11 02:27:28,955 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:27:28,955 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:28,955 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:27:28,956 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:28,956 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:27:28,956 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:28,956 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:27:28,956 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:29,374 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:27:29,428 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:27:29,428 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:29,429 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:27:29,429 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:29,429 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:27:29,429 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:29,430 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:27:29,430 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:27:29,753 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:28:28,378 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022827.csv
+2026-03-11 02:28:28,566 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:28:28,566 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:28,567 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:28:28,567 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:28,567 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:28:28,567 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:28,567 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:28:28,568 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:29,022 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:28:29,085 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:28:29,085 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:29,086 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:28:29,086 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:29,086 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:28:29,087 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:29,087 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:28:29,087 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:28:29,456 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:29:28,851 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T022927.csv
+2026-03-11 02:29:29,042 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:29:29,042 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,042 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:29:29,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,043 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:29:29,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,043 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:29:29,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,401 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:29:29,459 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:29:29,459 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,460 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:29:29,460 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,460 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:29:29,460 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,461 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:29:29,461 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:29:29,742 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:30:28,498 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023027.csv
+2026-03-11 02:30:28,643 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:30:28,644 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:28,644 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:30:28,644 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:28,644 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:30:28,644 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:28,645 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:30:28,645 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:29,057 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:30:29,114 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:30:29,114 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:29,114 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:30:29,114 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:29,115 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:30:29,115 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:29,115 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:30:29,115 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:30:29,448 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:31:29,016 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023127.csv
+2026-03-11 02:31:29,176 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:31:29,176 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,176 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:31:29,176 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,177 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:31:29,177 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,177 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:31:29,177 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,535 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:31:29,594 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:31:29,594 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,595 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:31:29,595 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,595 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:31:29,595 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,596 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:31:29,596 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:31:29,912 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:32:29,485 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023228.csv
+2026-03-11 02:32:29,633 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:32:29,633 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:29,633 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:32:29,634 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:29,634 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:32:29,634 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:29,634 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:32:29,634 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:29,990 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:32:30,042 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:32:30,043 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:30,044 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:32:30,044 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:30,044 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:32:30,044 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:30,045 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:32:30,045 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:32:30,361 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:33:29,140 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023328.csv
+2026-03-11 02:33:29,298 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:33:29,298 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,299 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:33:29,299 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,299 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:33:29,299 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,300 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:33:29,300 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,692 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:33:29,745 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:33:29,745 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,746 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:33:29,746 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,746 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:33:29,746 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:29,747 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:33:29,747 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:33:30,045 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:34:29,472 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023428.csv
+2026-03-11 02:34:29,684 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:34:29,684 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:29,685 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:34:29,685 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:29,685 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:34:29,685 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:29,686 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:34:29,686 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:30,047 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:34:30,098 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:34:30,098 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:30,098 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:34:30,099 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:30,099 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:34:30,099 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:30,099 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:34:30,100 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:34:30,406 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:35:29,292 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023528.csv
+2026-03-11 02:35:29,494 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:35:29,494 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,494 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:35:29,495 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,495 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:35:29,495 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,495 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:35:29,495 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,856 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:35:29,904 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:35:29,904 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,904 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:35:29,905 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,905 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:35:29,905 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:29,905 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:35:29,906 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:35:30,245 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:36:29,764 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023628.csv
+2026-03-11 02:36:29,982 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:36:29,982 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:29,983 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:36:29,983 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:29,983 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:36:29,983 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:29,984 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:36:29,984 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:30,322 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:36:30,378 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:36:30,379 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:30,379 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:36:30,379 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:30,379 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:36:30,380 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:30,380 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:36:30,380 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:36:30,709 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:37:29,378 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023728.csv
+2026-03-11 02:37:29,527 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:37:29,527 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:29,527 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:37:29,528 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:29,528 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:37:29,528 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:29,528 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:37:29,529 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:29,943 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:37:30,000 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:37:30,000 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:30,000 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:37:30,000 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:30,001 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:37:30,001 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:30,001 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:37:30,001 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:37:30,306 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:38:29,759 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023828.csv
+2026-03-11 02:38:29,903 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:38:29,904 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:29,904 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:38:29,904 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:29,905 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:38:29,905 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:29,905 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:38:29,905 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:30,257 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:38:30,312 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:38:30,312 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:30,312 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:38:30,313 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:30,313 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:38:30,313 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:30,313 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:38:30,313 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:38:30,589 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:39:29,623 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T023928.csv
+2026-03-11 02:39:29,825 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:39:29,826 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:29,826 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:39:29,826 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:29,826 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:39:29,827 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:29,827 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:39:29,827 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:30,235 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:39:30,288 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:39:30,288 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:30,289 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:39:30,289 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:30,289 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:39:30,290 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:30,290 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:39:30,290 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:39:30,587 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:40:29,858 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024028.csv
+2026-03-11 02:40:30,017 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:40:30,018 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,018 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:40:30,018 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,018 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:40:30,019 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,019 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:40:30,019 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,387 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:40:30,440 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:40:30,440 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,440 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:40:30,441 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,441 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:40:30,441 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,441 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:40:30,442 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:40:30,744 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:41:30,278 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024129.csv
+2026-03-11 02:41:30,438 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:41:30,438 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,438 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:41:30,438 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,439 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:41:30,439 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,439 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:41:30,439 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,799 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:41:30,854 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:41:30,854 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,854 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:41:30,854 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,855 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:41:30,855 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:30,855 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:41:30,855 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:41:31,135 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:42:29,880 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024229.csv
+2026-03-11 02:42:30,049 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:42:30,050 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,050 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:42:30,050 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,051 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:42:30,051 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,051 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:42:30,051 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,480 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:42:30,535 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:42:30,535 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,536 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:42:30,536 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,536 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:42:30,536 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,537 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:42:30,537 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:42:30,906 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:43:30,256 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024329.csv
+2026-03-11 02:43:30,503 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:43:30,503 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,503 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:43:30,503 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,504 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:43:30,504 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,504 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:43:30,504 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,876 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:43:30,931 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:43:30,931 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,931 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:43:30,932 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,932 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:43:30,932 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:30,932 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:43:30,932 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:43:31,211 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:44:30,122 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024429.csv
+2026-03-11 02:44:30,272 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:44:30,273 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,273 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:44:30,273 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,274 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:44:30,274 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,274 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:44:30,274 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,625 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:44:30,704 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:44:30,704 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,704 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:44:30,705 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,705 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:44:30,705 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:30,705 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:44:30,706 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:44:31,010 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:45:30,691 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024529.csv
+2026-03-11 02:45:30,878 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:45:30,878 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:30,878 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:45:30,878 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:30,879 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:45:30,879 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:30,879 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:45:30,879 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:31,296 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:45:31,349 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:45:31,350 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:31,350 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:45:31,350 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:31,350 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:45:31,351 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:31,351 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:45:31,351 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:45:31,691 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:46:30,890 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024629.csv
+2026-03-11 02:46:31,049 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:46:31,050 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,050 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:46:31,050 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,050 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:46:31,051 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,051 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:46:31,051 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,425 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:46:31,486 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:46:31,487 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,487 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:46:31,487 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,487 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:46:31,488 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,488 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:46:31,488 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:46:31,868 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:47:30,493 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024729.csv
+2026-03-11 02:47:30,638 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:47:30,638 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:30,639 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:47:30,639 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:30,639 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:47:30,639 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:30,640 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:47:30,640 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:30,991 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:47:31,047 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:47:31,047 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:31,047 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:47:31,048 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:31,048 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:47:31,048 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:31,048 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:47:31,048 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:47:31,347 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:48:31,139 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024829.csv
+2026-03-11 02:48:31,289 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:48:31,289 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,290 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:48:31,290 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,290 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:48:31,290 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,291 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:48:31,291 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,690 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:48:31,752 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:48:31,752 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,753 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:48:31,753 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,753 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:48:31,754 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:31,754 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:48:31,754 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:48:32,083 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:49:30,771 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T024929.csv
+2026-03-11 02:49:30,938 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:49:30,938 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:30,938 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:49:30,939 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:30,939 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:49:30,939 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:30,939 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:49:30,940 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:31,328 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:49:31,386 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:49:31,386 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:31,386 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:49:31,386 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:31,387 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:49:31,387 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:31,387 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:49:31,387 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:49:31,674 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:50:31,232 - AnomalyDetectionApp - INFO - New file arrival detected: raw/sensors_20260311T025030.csv
+2026-03-11 02:50:31,405 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:50:31,406 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,406 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:50:31,406 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,406 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:50:31,407 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,407 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:50:31,407 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,795 - AnomalyDetectionApp - INFO - Successfully synced app.log to S3.
+2026-03-11 02:50:31,855 - AnomalyDetectionApp - INFO - New calculations for channel: temperature
+2026-03-11 02:50:31,855 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,856 - AnomalyDetectionApp - INFO - New calculations for channel: humidity
+2026-03-11 02:50:31,856 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,856 - AnomalyDetectionApp - INFO - New calculations for channel: pressure
+2026-03-11 02:50:31,856 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
+2026-03-11 02:50:31,856 - AnomalyDetectionApp - INFO - New calculations for channel: wind_speed
+2026-03-11 02:50:31,857 - AnomalyDetectionApp - INFO - Baseline updates completed and saved to S3.
