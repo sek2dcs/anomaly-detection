@@ -151,9 +151,10 @@ Resources:
           source venv/bin/activate
           pip install -r requirements.txt
 
-          # 5. Start FastAPI
-          # Run as 'ubuntu' user so files are owned correctly
-          sudo -u ubuntu BUCKET_NAME=${DataBucket} bash -c "source /home/ubuntu/app/venv/bin/activate && fastapi run app.py --port 8000" &
+         # --- AUTOMATIC START DISABLED PER INSTRUCTIONS ---
+          # The app will NOT start on its own. 
+          # You must SSH in and run the command manually.
+          echo "Bootstrap complete. Waiting for manual start..."
 
   # 6. Elastic IP
   InstanceEIP:
