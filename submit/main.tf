@@ -1,15 +1,15 @@
-# 1. S3 Bucket with unique name
+# S3 bucket 
 resource "aws_s3_bucket" "data_bucket" {
   bucket = "ds5220-sophie-kim-sensor-data"
   force_destroy = true # Allows deletion even if files exist
 }
 
-# 2. SNS Topic for notifications
+# SNS topic 
 resource "aws_sns_topic" "sensor_topic" {
   name = "ds5220-dp1-topic"
 }
 
-# 3. SNS Topic Policy (Allows S3 to Publish)
+# SNS topic policy
 resource "aws_sns_topic_policy" "default" {
   arn = aws_sns_topic.sensor_topic.arn
 
@@ -27,7 +27,7 @@ resource "aws_sns_topic_policy" "default" {
   })
 }
 
-# 4. S3 Notification (Depends on Policy being ready)
+# S3 notification
 resource "aws_s3_bucket_notification" "bucket_notification" {
   bucket = aws_s3_bucket.data_bucket.id
 
@@ -41,7 +41,7 @@ resource "aws_s3_bucket_notification" "bucket_notification" {
   depends_on = [aws_sns_topic_policy.default]
 }
 
-# 5. EC2 Instance
+#  EC2 instance
 resource "aws_instance" "app_server" {
   ami           = "ami-04b70fa74e45c3917" # Ubuntu 24.04 in us-east-1
   instance_type = "t3.micro"
@@ -60,24 +60,25 @@ resource "aws_instance" "app_server" {
   tags = { Name = "DS5220-Sophie-Kim" }
 }
 
-# 6. Elastic IP
+# elastic IP
 resource "aws_eip" "app_ip" {
   instance = aws_instance.app_server.id
 }
 
+# security group
 resource "aws_security_group" "app_sg" {
   name        = "ds5220-app-sg"
   description = "Allow SSH and FastAPI traffic"
 
-  # SSH Access
+  # SSH access
   ingress {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] # For production, use your specific IP
+    cidr_blocks = ["0.0.0.0/0"] 
   }
 
-  # FastAPI Access
+  # FastAPI access
   ingress {
     from_port   = 8000
     to_port     = 8000
@@ -85,7 +86,7 @@ resource "aws_security_group" "app_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # Allow all outbound traffic (so EC2 can download python packages)
+  # allow all outbound traffic
   egress {
     from_port   = 0
     to_port     = 0
@@ -94,9 +95,10 @@ resource "aws_security_group" "app_sg" {
   }
 }
 
+# roles
 resource "aws_iam_instance_profile" "ec2_profile" {
   name = "ds5220-ec2-instance-profile"
-  role = aws_iam_role.ec2_role.name # This assumes you have an 'aws_iam_role.ec2_role' defined
+  role = aws_iam_role.ec2_role.name
 }
 
 resource "aws_iam_role" "ec2_role" {
