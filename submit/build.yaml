@@ -19,13 +19,15 @@ Parameters:
 
 
 Resources:
-  # 1. S3 Bucket
+  # S3 bucket
   DataBucket:
     Type: AWS::S3::Bucket
-    DependsOn: SNSTopicPolicy # Forces permissions to exist BEFORE the bucket
+    # so that AWS doesn't create bucket until the SNS topic policy is set up (aka until permissions are good)
+    DependsOn: SNSTopicPolicy
     Properties:
-      # Using a hardcoded-style name prevents the "Circular Dependency" loop
+      # hardcoded bucket name so it doesn't recurse 
       BucketName: !Sub "${AWS::StackName}-sensor-data-${AWS::AccountId}"
+      # below tells S3 to monitor the raw folder and then alert the SNS topic 
       NotificationConfiguration:
         TopicConfigurations:
           - Event: 's3:ObjectCreated:*'
@@ -38,13 +40,13 @@ Resources:
                     Value: .csv
             Topic: !Ref SNSTopic
 
-  # 2. SNS Topic
+  # SNS topic
   SNSTopic:
     Type: AWS::SNS::Topic
     Properties:
       TopicName: ds5220-dp1
 
-  # Permission for S3 to post to SNS
+  # gives permission for S3 to post in SNS 
   SNSTopicPolicy:
     Type: AWS::SNS::TopicPolicy
     Properties:
@@ -63,7 +65,7 @@ Resources:
                 aws:SourceArn: !Sub "arn:aws:s3:::${AWS::StackName}-sensor-data-${AWS::AccountId}"
 
 
-  # SNS Subscription to the EC2 API
+  # this means that whenver SNS gets a message, send HTTP post request to ec2 instance on port 8000 at notify endpoint
   ApiSubscription:
     Type: AWS::SNS::Subscription
     Properties:
@@ -71,7 +73,7 @@ Resources:
       Endpoint: !Sub "http://${InstanceEIP}:8000/notify"
       TopicArn: !Ref SNSTopic
 
-  # 3. IAM Role for EC2 (Access to S3)
+  # IAM role for EC2
   EC2InstanceRole:
     Type: AWS::IAM::Role
     Properties:
@@ -88,6 +90,7 @@ Resources:
             Version: "2012-10-17"
             Statement:
               - Effect: Allow
+              # allows the below actions to the data bucket 
                 Action:
                   - "s3:GetObject"
                   - "s3:PutObject"
@@ -95,13 +98,13 @@ Resources:
                 Resource: 
                   - !Sub "arn:aws:s3:::${DataBucket}"
                   - !Sub "arn:aws:s3:::${DataBucket}/*"
-
+  # make a profile so that the instance can use the role above 
   EC2InstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
       Roles: [!Ref EC2InstanceRole]
 
-  # 4. Security Group
+  # security  with permissions as specified in instructions 
   EC2SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -116,15 +119,17 @@ Resources:
           ToPort: 8000
           CidrIp: 0.0.0.0/0
 
-  # 5. EC2 Instance (Ubuntu 24.04)
+  # EC2 instance 
   EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-04b70fa74e45c3917 # Ubuntu 24.04 LTS in us-east-1
+      ImageId: ami-04b70fa74e45c391 # for ubuntu in us-east-1
+      # referencing everything above for the info inside of instance
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyName
       IamInstanceProfile: !Ref EC2InstanceProfile
       SecurityGroupIds: [!Ref EC2SecurityGroup]
+      # vol size as 16
       BlockDeviceMappings:
         - DeviceName: /dev/sda1
           Ebs:
@@ -133,34 +138,36 @@ Resources:
         Fn::Base64: !Sub |
           #!/bin/bash
           set -e
-          # 1. Environment variables
+          # environment variables for bucket name so py file knows what bucket to use
           echo "BUCKET_NAME=${DataBucket}" >> /etc/environment
           export BUCKET_NAME=${DataBucket}
 
-          # 2. Install dependencies
+          # install all the good stuff 
           apt-get update -y
           apt-get install -y python3-pip python3-venv git
 
-          # 3. Clone repo (Replace with YOUR fork URL)
+          # clone repo 
           git clone https://github.com/sek2dcs/anomaly-detection.git /home/ubuntu/app
           chown -R ubuntu:ubuntu /home/ubuntu/app
           cd /home/ubuntu/app
 
-          # 4. Setup Python Environment
+          # set up python environment and install the packages that are in the txt file 
           python3 -m venv venv
           source venv/bin/activate
           pip install -r requirements.txt
 
-  # 6. Elastic IP
+  # elastic IP
   InstanceEIP:
     Type: AWS::EC2::EIP
 
+  # ties IP to the instance in case connection gets lost 
   EIPAssociation:
     Type: AWS::EC2::EIPAssociation
     Properties:
       InstanceId: !Ref EC2Instance
       EIP: !Ref InstanceEIP
 
+# output the url of fastapi app 
 Outputs:
   AppURL:
     Description: URL of the FastAPI app

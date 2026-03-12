@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 import os
 
 s3 = boto3.client("s3")
+# changing bucket name var to my bucket name
 BUCKET_NAME = "ds5220-proj1-sensor-data-174054318249"
 
 

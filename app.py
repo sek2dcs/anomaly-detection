@@ -13,16 +13,19 @@ from processor import process_file
 
 import logging
 
-# 1. SETUP LOGGING
-# This creates a log file locally on the EC2 instance
+# making loggging system for app 
 logging.basicConfig(
+    # getting general events 
     level=logging.INFO,
+    # formatting the logging
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    # where the logs will go --> to app.log file 
     handlers=[
-        logging.FileHandler("app.log"), # Writes to file
-        logging.StreamHandler()         # Also prints to terminal/console
+        logging.FileHandler("app.log"), 
+        logging.StreamHandler()        
     ]
 )
+# making specific instance of logger called AnomalyDetectionApp
 logger = logging.getLogger("AnomalyDetectionApp")
 
 
@@ -31,12 +34,13 @@ app = FastAPI(title="Anomaly Detection Pipeline")
 s3 = boto3.client("s3")
 BUCKET_NAME = os.environ["BUCKET_NAME"]
 
-
+# ensuring that logs are backed up 
 def sync_logs_to_s3():
-    """Syncs the local app.log to S3 logs/ folder."""
     try:
+        # telling S3 to put file inside folder named log and inside file named app.log
         s3.upload_file("app.log", BUCKET_NAME, "logs/app.log")
         logger.info("Successfully synced app.log to S3.")
+    # error handling
     except Exception as e:
         logger.error(f"Failed to sync logs to S3: {e}")
 
@@ -63,26 +67,32 @@ async def handle_sns(request: Request, background_tasks: BackgroundTasks):
                 key = record["s3"]["object"]["key"]
                 if key.startswith("raw/") and key.endswith(".csv"):
                     logger.info(f"New file arrival detected: {key}")
-                    # Process file and sync logs as background tasks
+
+                    # background tasks to process file AND sync logs
                     background_tasks.add_task(process_file, BUCKET_NAME, key)
-                    background_tasks.add_task(sync_logs_to_s3) # Requirement: Sync logs
-                    # Use the wrapper so sync_logs_to_s3 happens AFTER process_file
+                    background_tasks.add_task(sync_logs_to_s3)
                     background_tasks.add_task(run_pipeline, BUCKET_NAME, key)
 
         return {"status": "ok"}
+    
+    # error handling 
     except Exception as e:
         logger.error(f"Error in /notify: {str(e)}")
         return {"status": "error", "message": str(e)} 
-    
+
+# ensuring everything running chill 
+# async func so app doesn't freeze up 
 async def run_pipeline(bucket, key):
-    """Wrapper to ensure we log, process, and then sync to S3."""
     try:
+        # downloading csv, calculate stats, update baseline
         process_file(bucket, key)
-        # Requirement: Sync log file to S3 whenever baseline is pushed
+        # update logs when baseline changes
         sync_logs_to_s3() 
+        # error handling 
     except Exception as e:
         logger.error(f"Pipeline failed for {key}: {e}")
-        sync_logs_to_s3() # Sync even on failure so you can see the error in S3!
+        # syncing even when it fails, so i know what happened in the log too 
+        sync_logs_to_s3()
 
 # ── Query endpoints ───────────────────────────────────────────────────────────
 
@@ -117,6 +127,7 @@ def get_recent_anomalies(limit: int = 50):
 
         combined = pd.concat(all_anomalies).head(limit)
         return {"count": len(combined), "anomalies": combined.to_dict(orient="records")}
+    # error handling 
     except Exception as e: 
         logger.error(f"Error in /notify: {str(e)}")
         return {"status": "error", "message": str(e)}
@@ -149,6 +160,7 @@ def get_anomaly_summary():
             "overall_anomaly_rate": round(total_anomalies / total_rows, 4) if total_rows > 0 else 0,
             "most_recent": sorted(summaries, key=lambda x: x["processed_at"], reverse=True)[:5],
         }
+    # error handling
     except Exception as e: 
         logger.error(f"Failed to fetch recent anomalies: {e}")
         return {"status": "error", "message": "Check logs for details."}
@@ -175,6 +187,7 @@ def get_current_baseline():
             "last_updated": baseline.get("last_updated"),
             "channels": channels,
         }
+    # error handling 
     except Exception as e:
         logger.error(f"Error loading baseline: {e}")
         return {"error": "Could not load baseline from S3"}
